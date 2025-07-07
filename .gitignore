@@ -1,0 +1,17 @@
+
+*.keystore
+*.lock
+*.bin
+*.token
+*.pub
+
+.android/
+.idea/
+.vscode/
+node_modules/
+__pycache__/
+
+
+.DS_Store
+Thumbs.db
+
