@@ -1,0 +1,55 @@
+/* Використання селекторів тегу зі специфічністю 0.0.1 (можна легко перекрити)*/
+
+body {
+  background-color: antiquewhite;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+  color: crimson;
+  font-size: larger;
+  text-align: center;
+}
+
+/* Використання селектора класу зі специфічністю 0.1.0 */
+
+.container {
+  margin: 20px 20px;
+}
+
+/* Використання вкладених селекторів (селектор нащадка) зі специфічністю 0.1.2 */
+
+ul li:nth-child(2n) {
+  background-color: blueviolet;
+}
+
+/* Використання селектору дитини зі специфічністю 0.0.2  */
+
+div > p {
+  color: red;
+  text-transform: lowercase;
+}
+
+/* Використання селектору id зі специфічністю  1.0.0 */
+#dark-style {
+  color: darkblue;
+}
+
+/* Використання селектору атрибуту зі специфічністю 0.1.1 */
+
+input[type="text"] {
+  border: 2px solid blue;
+  padding: 5px;
+}
+
+/* Використання селектору сусіднього селектору зі специфічністю 0.0.2 */
+
+label + input {
+  margin-left: 10px;
+}
+
+/* Використання селектору загального сусіднього селектору зі специфічністю 0.0.2 */
+
+h2 ~ p {
+  margin-bottom: 10px;
+}

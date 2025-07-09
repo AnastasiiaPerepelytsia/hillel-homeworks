@@ -1,25 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Специфічність</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    <header>
-      <div>
-        <nav>
-          <ul>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-          </ul>
-        </nav>
-      </div>
+    <header class="container">
+      <h1>Специфічність селекторів</h1>
+
+      <nav>
+        <ul>
+          <li>перелік списку</li>
+          <li>перелік списку</li>
+          <li>перелік списку</li>
+          <li>перелік списку</li>
+        </ul>
+      </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <section class="container">
+        <div>
+          <h2>Заголовок рівня 2</h2>
+          <p id="dark-style">1 текст параграфу, дитина div , але має id</p>
+          <p>2 текст параграфу, дитина div</p>
+          <p>3 текст параграфу, дитина div</p>
+        </div>
+      </section>
+      <section class="container">
+        <div>
+          <label for="name">Вкажіть ім'я</label>
+          <input type="text" name="name" id="name" />
+        </div>
+      </section>
+    </main>
   </body>
 </html>
