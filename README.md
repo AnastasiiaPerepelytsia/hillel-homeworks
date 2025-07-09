@@ -17,13 +17,9 @@
 div > p {
   background-color: yellow;
 }
-html
-Kopiuj
-Edytuj
+
 <div>
   <p>Застосовується до тегів p, вкладених у div, на першому рівні, специфічність: 0,0,2</p>
 </div>
-
-
 
 ```
